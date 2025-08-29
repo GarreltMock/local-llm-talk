@@ -1,0 +1,35 @@
+@import url("./fonts.css");
+
+.custom-button {
+    /* @apply bg-green rounded px-10 py-2 shadow-[0px_3px_0px_0px_rgb(22,101,52)] active:shadow-none active:translate-y-[3px]; */
+    @apply bg-[var(--slidev-theme-primary)] rounded px-10 py-2 active:shadow-none active:translate-y-[3px] color-black font-bold text-xl;
+    box-shadow: 0px 3px 0px 0px #528d00;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.dark .slidev-layout {
+    background-color: #040018;
+}
+
+:root {
+    --slidev-theme-primary: #cfff00;
+}
+
+body {
+    color: #000;
+}
+
+.dark body {
+    color: #fff;
+}
+
+.slidev-layout blockquote {
+    --uno: "border-l-3";
+}
+
+.color-primary {
+    color: var(--slidev-theme-primary);
+}
