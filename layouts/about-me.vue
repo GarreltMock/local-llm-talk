@@ -22,7 +22,7 @@
                     </li>
                     <!-- <li>5+ Jahre Frontend Erfahrung</li> -->
                     <li>
-                        Focus on Vue
+                        Fokus on Vue
                         <logos-vue class="inline-block h-[1em]" />
                     </li>
                 </ul>

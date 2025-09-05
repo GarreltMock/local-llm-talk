@@ -24,7 +24,7 @@ layout: cover
 </div> -->
 
 ---
-src: ./pages/intro.md
+src: ./pages/1-intro.md
 ---
 
 ---
@@ -32,21 +32,21 @@ layout: about-me
 ---
 
 ---
-src: ./pages/warum-local-llm.md
+src: ./pages/2-why-local.md
 ---
 
 ---
-src: ./pages/state-of-art.md
+src: ./pages/3-state-of-art.md
 ---
 
 ---
-src: ./pages/hands-on-tools.md
+src: ./pages/4-hands-on-tools.md
 ---
 
 ---
-src: ./pages/live-demo.md
+src: ./pages/5-live-demo.md
 ---
 
 ---
-src: ./pages/ausblick.md
+src: ./pages/6-look-ahead.md
 ---
