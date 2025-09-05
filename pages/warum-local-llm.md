@@ -1,3 +1,7 @@
+---
+layout: section
+---
+
 # Warum Local LLM?
 
 ---
@@ -28,7 +32,7 @@
 
 <v-click>
 
-<div class="text-center mt-6 p-4 bg-yellow-100 rounded-lg">
+<div class="text-center color-black mt-6 p-4 bg-yellow-100 rounded-lg">
 <strong>Beispiel:</strong> Deutsche Bank, Medizinische Forschung, Anwaltskanzleien
 </div>
 
@@ -126,7 +130,7 @@ Mac Studio M2 Ultra: ~€5000 (einmalig)
 
 <v-click>
 
-<div class="mt-6 p-4 bg-blue-100 rounded-lg text-center">
+<div class="mt-6 p-4 bg-blue-100 rounded-lg text-center color-black">
 <strong>Resultat:</strong> Höhere Genauigkeit bei spezifischen Anwendungsfällen
 </div>
 

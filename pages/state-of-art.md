@@ -1,4 +1,9 @@
-# State of the Art – Wo stehen wir?
+---
+layout: section
+---
+
+# State of the Art
+## Wo stehen wir?
 
 ---
 
@@ -13,7 +18,7 @@
 - **Highlight:** Sehr gute Code-Generation
 - **Hardware:** 8GB - 200GB+ RAM
 
-### 🌪️ **Mistral & Mixtral**  
+### 🌪️ **Mistral & Mixtral**
 - **Mistral 7B:** Kompakt, schnell
 - **Mixtral 8x7B:** Mixture-of-Experts
 - **Hardware:** 8GB - 48GB RAM
@@ -53,7 +58,7 @@
 
 <v-click>
 
-<div class="mt-6 p-4 bg-orange-100 rounded-lg">
+<div class="mt-6 p-4 bg-orange-100 rounded-lg color-black">
 <strong>⚠️ Vorsicht bei Benchmarks:</strong>
 <ul>
 <li>Synthetic Tasks ≠ Real-World Performance</li>

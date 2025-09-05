@@ -1,4 +1,9 @@
-# Intro - Die Story
+---
+layout: section
+---
+
+# Intro
+## Die Story
 
 ---
 

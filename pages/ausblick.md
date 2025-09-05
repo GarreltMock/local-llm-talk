@@ -1,3 +1,7 @@
+---
+layout: section
+---
+
 # Blick nach vorn
 
 ---
@@ -28,7 +32,7 @@
 
 <v-click>
 
-<div class="mt-6 p-4 bg-gradient-to-r from-green-100 to-blue-100 rounded-lg">
+<div class="mt-6 p-4 bg-gradient-to-r from-green-100 to-blue-100 rounded-lg color-black">
 <strong>🚀 Vision 2025:</strong> Ein lokales System für Text, Bild, Audio und Video
 </div>
 
@@ -67,7 +71,7 @@ graph TD
 
 <v-click>
 
-<div class="mt-6 p-4 bg-yellow-100 rounded-lg text-center">
+<div class="mt-6 p-4 bg-yellow-100 rounded-lg text-center color-black">
 <strong>Ziel:</strong> GPT-4-Level Performance auf Smartphone-Hardware
 </div>
 
@@ -145,7 +149,7 @@ Erstelle Zusammenfassung → Generiere Antwort-Entwurf
 
 <v-click>
 
-<div class="mt-6 p-4 bg-purple-100 rounded-lg">
+<div class="mt-6 p-4 bg-purple-100 rounded-lg color-black">
 <strong>🎯 Smart Routing:</strong>
 <ul>
 <li>Einfache Fragen → Lokales 7B Modell</li>

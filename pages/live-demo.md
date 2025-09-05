@@ -1,4 +1,9 @@
-# Live-Demo: Coding-Integration
+---
+layout: section
+---
+
+# Live-Demo
+## Coding-Integration
 
 ---
 
@@ -83,7 +88,7 @@ opencode --model ollama/llama3.1
 
 <v-click>
 
-<div class="mt-6 p-4 bg-purple-100 rounded-lg">
+<div class="mt-6 p-4 bg-purple-100 rounded-lg color-black">
 <strong>🎯 Use Cases:</strong> Code Review, Bug-Fixing, Refactoring, Dokumentation
 </div>
 
@@ -98,10 +103,10 @@ opencode --model ollama/llama3.1
 ```mermaid
 graph LR
     A[1. Ollama installieren] --> B[2. Model laden]
-    B --> C[3. Continue konfigurieren]  
+    B --> C[3. Continue konfigurieren]
     C --> D[4. Code schreiben]
     D --> E[✨ Profit!]
-    
+
     style A fill:#ff6b6b
     style B fill:#4ecdc4
     style C fill:#45b7d1
@@ -166,7 +171,7 @@ graph LR
 
 <v-click>
 
-<div class="mt-6 p-4 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg">
+<div class="mt-6 p-4 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg color-black">
 <strong>🎯 Realistische Erwartungen:</strong>
 <ul>
 <li>✅ Boilerplate Code, einfache Funktionen</li>

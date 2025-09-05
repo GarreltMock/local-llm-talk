@@ -16,12 +16,12 @@ layout: cover
 
 ### [Die Welt der lokalen LLMs]{style="background-color:var(--slidev-theme-primary);color:black;padding:0 4px"}
 
-<div class="absolute -bottom-2 right-5 text-3 origin-top-left translate-x-[100%] rotate-270 opacity-50">
+<!-- <div class="absolute -bottom-2 right-5 text-3 origin-top-left translate-x-[100%] rotate-270 opacity-50">
 <LightOrDark>
-  <template #dark>Photo by Timon Reinhard from Pexels</template>
-  <template #light>Photo by Magda Ehlers from Pexels</template>
+  <template #dark>Photo by * from Pexels</template>
+  <template #light>Photo by * from Pexels</template>
 </LightOrDark>
-</div>
+</div> -->
 
 ---
 src: ./pages/intro.md

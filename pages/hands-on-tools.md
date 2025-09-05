@@ -1,3 +1,7 @@
+---
+layout: section
+---
+
 # Hands-on: Lokale Tools
 
 ---
@@ -36,7 +40,7 @@ ollama run llama3.1
 
 <v-click>
 
-<div class="mt-6 p-4 bg-blue-100 rounded-lg">
+<div class="mt-6 p-4 bg-blue-100 rounded-lg color-black">
 <strong>💡 Perfect für:</strong> Entwickler, CLI-Fans, API-Integration
 </div>
 
@@ -73,7 +77,7 @@ ollama run llama3.1
 
 <v-click>
 
-<div class="mt-6 p-4 bg-green-100 rounded-lg">
+<div class="mt-6 p-4 bg-green-100 rounded-lg color-black">
 <strong>✅ Perfect für:</strong> Einsteiger, Experimente, schnelle Prototypen
 </div>
 
@@ -111,7 +115,7 @@ Mistral 7B: $0.20/1M tokens
 
 <v-click>
 
-<div class="mt-6 p-4 bg-yellow-100 rounded-lg">
+<div class="mt-6 p-4 bg-yellow-100 rounded-lg color-black">
 <strong>🎯 Perfect für:</strong> Model-Vergleiche, Testing, Hybrid-Ansatz
 </div>
 
