@@ -36,15 +36,15 @@ src: ./pages/2-why-local.md
 ---
 
 ---
-src: ./pages/3-state-of-art.md
+src: ./pages/3-state-of-the-art.md
 ---
 
 ---
-src: ./pages/4-hands-on-tools.md
+src: ./pages/4-prerequisites.md
 ---
 
 ---
-src: ./pages/5-live-demo.md
+src: ./pages/5-use-cases.md
 ---
 
 ---

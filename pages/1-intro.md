@@ -1,3 +1,29 @@
+# Erinnert ihr euch?
+
+Am 07. August 2025 -> Release von GPT5
+
+Alle waren so:
+GPT-5   Erwartung 🤩 -> Realität 😞
+
+Ich war so:
+gpt-oss Erwartung 😞 -> Realität 🤩
+
+<!--
+Ich war vorher recht uninteressiert an lokalen LLMs
+Die performance wirkte zu schlecht,
+aber da ich recht bekannt war mit ChatGPT war ich interessiert.
+
+Da hat sich eine ganz neue Welt eröffnet.
+Ich hab das Gefühl, dass 
+Und ich bin ein bisschen in ein Rabbit Hole gefallen.
+-->
+
+
+
+
+
+<!-------- ↓ Alte Idee ↓ -------->
+
 <!-- Was will ich sagen?  -->
 <!-- Wie kam ich zu dem Thema? -->
 

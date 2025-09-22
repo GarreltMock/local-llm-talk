@@ -2,31 +2,20 @@
 layout: section
 ---
 
-# Warum lokal?
+# Warum?
 
----
-transition: fade
----
+<!-- Story von Kollegen erzählen -->
+<!-- Visualisierung mit Icons -->
+<!-- 1 Folie sollte reichen -->
 
-# Warum lokal?
+## Hard-Facts
+1. Kostenkontrolle
+2. Privacy
+3. Fine-Tuning
+4. Offline
+5. (Uncensored?)
 
-<div class="flex items-center justify-center gap-20 *:opacity-50">
-    <p class="opacity-100">🕵️ Datenschutz</p>
-    <p>💸 Kosten</p>
-    <p>🌐 Offline</p>
-    <p>🛠️ Fine-Tuning</p>
-</div>
-
-
----
-transition: fade
----
-
-# Warum lokal?
-
-<div class="flex items-center justify-center gap-20 *:opacity-50">
-    <p>🕵️ Datenschutz</p>
-    <p class="opacity-100">💸 Kosten</p>
-    <p>🌐 Offline</p>
-    <p>🛠️ Fine-Tuning</p>
-</div>
+## Soft-Facts
+1. Open source - Linux vergleich
+2. Man kann vieles ausprobieren, ohne Anmeldung etc. (Opencode, Perplexica, Images)
+3. AI features in Software einbauen / testing davon
