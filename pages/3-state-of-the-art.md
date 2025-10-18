@@ -3,40 +3,48 @@ layout: section
 ---
 
 # State of the Art
-## Wie sieht die Modell-Landschaft aus
+
+---
+
+# Wie sieht die Modell-Landschaft aus
 
 1. gpt-oss
-2. Qwen3
+2. Qwen
 3. Deepseek
 4. Mistral
 5. Gemma
+6. Llama
 
 ---
 
-# Modelnamen
+## Welche Fähigkeiten haben wir
+1. Chat
+2. Tool Usage
+3. Visual
+4. Image-Gen
+5. Voice
 
-- Qwen/Qwen3-Coder-30B-A3B-Instruct
-
-- MLX vs. GGUF
-
-<!-- Idee hier die Token visualisierung zu nehmen -->
+=> Hängen den Cloud Model um nichts hinterher
 
 ---
 
-# Benchmarks
+# Performance
 
+<!--
 https://openai.com/de-DE/index/introducing-gpt-oss/
 https://help.openai.com/en/articles/9624314-model-release-notes#h_cb793d13ca
-
-![gpt-oss benchmarks](img/gpt-oss_benchmark.png)
+ -->
 
 - gpt-oss:20b  = gpt-o3mini
 - gpt-oss:120b = gpt-o4mini
-- qwen3 coding 30b
+
+![gpt-oss benchmarks](/img/gpt-oss_benchmark.png)
+
+<!-- Hier möchte ich noch viel mehr machen -->
 
 ---
 
-## Kleiner Exkurs in Benchmark-Nutzung
+## Benchmark-Exkurs
 
 - Quellen für Benchmarks
 - Was sind das für Benchmark-Tests?

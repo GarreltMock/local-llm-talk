@@ -1,12 +1,54 @@
-# Erinnert ihr euch?
+# 07. August 2025
 
-Am 07. August 2025 -> Release von GPT5
+<!-- Am 07. August 2025 -> Release von GPT5 -->
 
-Alle waren so:
+<!-- Alle waren so:
 GPT-5   Erwartung 🤩 -> Realität 😞
 
 Ich war so:
-gpt-oss Erwartung 😞 -> Realität 🤩
+gpt-oss Erwartung 😞 -> Realität 🤩 -->
+
+<!-- <div>
+    <div class="flex h-[20dvh] items-stretch mb-6">
+        <div class="flex-grow basis-0"><img src="/img/intro/gpt-5_release.png" class="h-full"/></div>
+        <div class="flex justify-end"><img src="/img/intro/meme_happy.jpg" class="h-full"/></div>
+        <div class=""><img src="/img/intro/meme_sad.jpg" class="h-full"/></div>
+    </div>
+    <div class="flex h-[20dvh]">
+        <div class="flex-grow basis-0"><img src="/img/intro/gpt-oss_release.png" class="h-full object-contain"/></div>
+        <div class=" flex justify-end"><img src="/img/intro/meme_sad.jpg" class="h-full"/></div>
+        <div class=""><img src="/img/intro/meme_happy.jpg" class="h-full"/></div>
+    </div>
+</div> -->
+
+<div class="meme-grid">
+    <p></p>
+    <p>Erwartung</p>
+    <p>Realität</p>
+    <img src="/img/intro/gpt-5_release.png" class="max-h-full object-contain"/>
+    <img src="/img/intro/meme_happy.jpg" class="max-h-full"/>
+    <img src="/img/intro/meme_sad.jpg" class="max-h-full"/>
+    <img src="/img/intro/gpt-oss_release.png" class="max-h-full object-contain"/>
+    <img src="/img/intro/meme_sad.jpg" class="max-h-full"/>
+    <img src="/img/intro/meme_happy.jpg" class="max-h-full"/>
+</div>
+
+<style>
+.meme-grid {
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* erlaubt echtes Schrumpfen */
+    grid-template-rows: auto 1fr 1fr;                /* statt "fit-content" */
+    gap: 0;
+    grid-row-gap: 12px;
+    align-items: stretch;
+}
+
+.meme-grid > * {
+  min-width: 0;
+  min-height: 0;
+}
+</style>
 
 <!--
 Ich war vorher recht uninteressiert an lokalen LLMs
@@ -14,56 +56,8 @@ Die performance wirkte zu schlecht,
 aber da ich recht bekannt war mit ChatGPT war ich interessiert.
 
 Da hat sich eine ganz neue Welt eröffnet.
-Ich hab das Gefühl, dass 
+Ich hab das Gefühl, dass
 Und ich bin ein bisschen in ein Rabbit Hole gefallen.
--->
-
-
-
-
-
-<!-------- ↓ Alte Idee ↓ -------->
-
-<!-- Was will ich sagen?  -->
-<!-- Wie kam ich zu dem Thema? -->
-
-<!--
-Intro V1
-Mein Rechner ist super Leistungsfähig
-Ich nutze die rechenleistung aber kaum und hab mich schon immer gefragt, wofür ich das mal nutzen könnte
-Lass uns mal zum Spaß ein LLM lokal laufen lassen
-
-Intro V2
-Der Hype um GPT-5 war riesig.
-Das Ergebnis eher enttäuschend. Viel negatives gehört.
-Was mich aber viel mehr interessiert hat war der release von gpt-oss.
-Ich dachte mir, oh das muss ich mal ausprobieren.
-Und war überrascht was schon alles lokal möglich ist.
--->
-
-<div class="flex items-center justify-center">
-    <img src="/img/m3-specs.png" alt="" class="h-[60vh]">
-    <div class="flex flex-col justify-center relative">
-        <div class="*:leading-none absolute">
-            <p v-click>CPU: 16 Cores</p>
-            <p v-click>GPU: 40 Cores</p>
-            <p v-click>RAM: 128 GB</p>
-            <p v-click>SSD: 2 TB</p>
-        </div>
-        <img src="/img/meme-pc-waiting-for-work.jpg" alt="" class="h-[40vh] relative" v-click>
-    </div>
-</div>
-
-
----
-
-# Dann kam GPT-5 um die Ecke
-
-## Meme Tabelle
-<!--
-Dann kam der Hype um GPT-5
-GPT-5   Erwartung 🤩 -> Realität 😞
-gpt-oss Erwartung 😞 -> Realität 🤩
 -->
 
 ---
@@ -77,10 +71,15 @@ gpt-oss Erwartung 😞 -> Realität 🤩
 - Deutlich kleiner als GPT-5
 - Lokal ausführbar
 
----
-layout: section
+<!-- Das hier zeigen bevor ich meine Reaktion darauf zeige -->
+<!-- Begriff Cloud Models vs. OSS Models einführen -->
+
 ---
 
-# Ich möchte euch heute zeigen was mich daran begeistert
+<img src="/img/intro/bain_explosion.gif" class="relative left-1/2 transform-translate-x--1/2 h-[40%]" />
 
-## Und wie ihr es selbst für euch einrichtet
+<div class="flex w-full justify-between">
+    <img src="/img/intro/bain_explosion.gif" class="w-[30%]" />
+    <img src="/img/intro/bain_explosion.gif" class="w-[30%]" />
+    <img src="/img/intro/bain_explosion.gif" class="w-[30%]" />
+</div>

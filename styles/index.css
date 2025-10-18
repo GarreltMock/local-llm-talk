@@ -33,3 +33,7 @@ body {
 .color-primary {
     color: var(--slidev-theme-primary);
 }
+
+img {
+    border-radius: 14px;
+}
