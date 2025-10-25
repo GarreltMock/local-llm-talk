@@ -2,13 +2,7 @@
 layout: section
 ---
 
-# Fazit
-
----
-
-# Reality Check
-
-
+# Blick nach vorn
 
 ---
 

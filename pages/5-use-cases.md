@@ -18,20 +18,25 @@ layout: section
 
 ---
 
-## VS Code
+# VS Code
+- LM Studio API
 - VS Code Insider - lokale Modelpicker
 - Continue
 
-- LM Studio API
 
-> Chat wirkt super. Autocomplete finde ich gerade nicht super nützlich (qualität, features und speed)
+### → Chat wirkt super. Autocomplete finde ich gerade nicht super nützlich (qualität, features und speed)
 
 ---
 
-## CLI Agents
+# CLI Agents
 - Claude Code Router
 - Opencode
 - Cline?
 
 - Context Length
-- Ollama lief hier nicht. Vielleicht weil es nicht kompatibel war? Screenshot zeigen
+> TODO: Ollama lief hier nicht. Vielleicht weil es nicht kompatibel war? Screenshot zeigen
+
+---
+
+# Reality Check
+

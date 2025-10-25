@@ -1,12 +1,12 @@
 ---
-layout: section
+class: flex flex-col h-full items-center
 ---
 
 <!-- Funktioniert die Folie so? Übergang war schwer -->
 
 # Ok, you got me
 
-<img src="/img/hardware/meme-drugs.jpeg" class="mx-auto h-[20vw] object-contain"/>
+<img src="/img/hardware/meme-drugs.jpeg" class="flex-grow min-h-0 object-contain"/>
 
 ## What do I need?
 
@@ -59,40 +59,25 @@ https://vue-bits.dev/components/bounce-cards
 <div class="flex-grow"></div>
 
 ---
+title: Hardware
+class: flex flex-col h-full
+---
 
-## Was für Möglichkeiten habe ich?
+# Was für Möglichkeiten habe ich?
 <!-- 1. Mac (unified M-Chip, MLX, gerade super)
 2. Grafikkarte / Gaming-PC
 3. Strix Halo -->
 
-<div class="flex w-full">
+<div class="flex w-full flex-grow">
     <img src="/img/hardware/mac.png" class="min-w-0 basis-0 flex-grow object-contain"/>
     <img src="/img/hardware/grafikkarte.png" class="min-w-0 basis-0 flex-grow object-contain"/>
     <img src="/img/hardware/strix-halo.png" class="min-w-0 basis-0 flex-grow object-contain"/>
 </div>
 
-> unter 1500-2000€ eher schwierig
+## → unter 1500 - 2000€ eher schwierig
 
 ---
 
 # Software (live zeigen)
 - Ollama
 - LM Studio
-    - mcp server
-
-
----
-
-# Model
-Wie wähle ich eins aus?
-
-## Modelname
-
-> Qwen/Qwen3-Coder-30B-A3B-Instruct
-
-- MLX vs. GGUF
-- Quantisierung
-
-<!-- Idee hier die Token visualisierung zu nehmen -->
-<!-- Hier auch einfach auf Huggingface die Modellliste zeigen -->
-<!-- Oder als iFrame einbinden -->

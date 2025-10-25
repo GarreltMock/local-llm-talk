@@ -1,5 +1,5 @@
 <template>
-    <div class="slidev-layout my-cover size-full flex flex-col justify-center">
+    <div class="slidev-layout my-cover size-full flex flex-col justify-center items-center">
         <slot />
     </div>
 </template>
@@ -12,12 +12,6 @@
     html.dark & {
         /* background: url("/img/cover/satellite.jpg") no-repeat center center; */
         /* background: url("/img/cover/tower-dark.jpg") no-repeat center center; */
-        background-size: cover;
-
-        justify-content: start;
-        align-items: center;
-
-        padding-top: 80px;
     }
 
     h1 {

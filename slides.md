@@ -28,6 +28,24 @@ src: ./pages/1-intro.md
 ---
 
 ---
+layout: cover
+---
+
+# Meine Journey
+
+## 1. Model Landschaft
+
+## 2. Wie lasse ich die laufen
+
+## 3. *(Dev)* Use Cases
+
+<style scoped>
+h2 {
+  margin: 18px 0;
+}
+</style>
+
+---
 layout: about-me
 ---
 

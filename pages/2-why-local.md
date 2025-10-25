@@ -1,18 +1,19 @@
----
-
 # Warum?
 
 <!-- Story von Kollegen erzählen -->
 <!-- Visualisierung mit Icons -->
 <!-- 1 Folie sollte reichen -->
 
+> Todo: Icons malen
+
 ## Hard-Facts
-1. Unabhängigkeit / Kontrolle - Ich entscheide über genutzte Version und Parameter etc.
+1. Unabhängigkeit / Kontrolle
+    - Ich entscheide über genutzte Version und Parameter etc.
     - Beispiel -> Switch von GPT-4o zu 5
 2. Kostenkontrolle / -vorhersehbarkeit
 3. Privacy
 4. Offline
-5. (Uncensored?)
+<!-- 5. (Uncensored?) -->
 
 ## Soft-Facts
 1. Open source - Linux vergleich

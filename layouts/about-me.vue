@@ -22,8 +22,8 @@
                     </li>
                     <!-- <li>5+ Jahre Frontend Erfahrung</li> -->
                     <li>
-                        Fokus on Vue
-                        <logos-vue class="inline-block h-[1em]" />
+                        Claude-Code Fan
+                        <logos-claude-icon class="inline-block h-[1em]" />
                     </li>
                 </ul>
 

@@ -1,36 +1,22 @@
-# 07. August 2025
-
-<!-- Am 07. August 2025 -> Release von GPT5 -->
-
-<!-- Alle waren so:
-GPT-5   Erwartung 🤩 -> Realität 😞
-
-Ich war so:
-gpt-oss Erwartung 😞 -> Realität 🤩 -->
-
-<!-- <div>
-    <div class="flex h-[20dvh] items-stretch mb-6">
-        <div class="flex-grow basis-0"><img src="/img/intro/gpt-5_release.png" class="h-full"/></div>
-        <div class="flex justify-end"><img src="/img/intro/meme_happy.jpg" class="h-full"/></div>
-        <div class=""><img src="/img/intro/meme_sad.jpg" class="h-full"/></div>
-    </div>
-    <div class="flex h-[20dvh]">
-        <div class="flex-grow basis-0"><img src="/img/intro/gpt-oss_release.png" class="h-full object-contain"/></div>
-        <div class=" flex justify-end"><img src="/img/intro/meme_sad.jpg" class="h-full"/></div>
-        <div class=""><img src="/img/intro/meme_happy.jpg" class="h-full"/></div>
-    </div>
-</div> -->
+# 🗓️ 07. August 2025
 
 <div class="meme-grid">
-    <p></p>
-    <p>Erwartung</p>
-    <p>Realität</p>
-    <img src="/img/intro/gpt-5_release.png" class="max-h-full object-contain"/>
-    <img src="/img/intro/meme_happy.jpg" class="max-h-full"/>
-    <img src="/img/intro/meme_sad.jpg" class="max-h-full"/>
-    <img src="/img/intro/gpt-oss_release.png" class="max-h-full object-contain"/>
-    <img src="/img/intro/meme_sad.jpg" class="max-h-full"/>
-    <img src="/img/intro/meme_happy.jpg" class="max-h-full"/>
+    <div></div>
+    <h3 v-click="2">Erwartung</h3>
+    <h3 v-click="3">Realität</h3>
+    <img src="/img/intro/gpt-5_release.png" class="max-h-full object-contain" v-click="1"/>
+    <img src="/img/intro/meme_happy.jpg" class="max-h-full" v-click="2"/>
+    <img src="/img/intro/meme_sad.jpg" class="max-h-full" v-click="3"/>
+    <img src="/img/intro/gpt-oss_release.png" class="max-h-full object-contain" v-click="4"/>
+    <div class="relative">
+        <img src="/img/intro/meme_sad.jpg" class="max-h-full" v-click="6" />
+        <div v-click="[5, 6]" class="oss absolute top-0 w-[200%] h-full flex flex-col justify-center">
+            <p>- Open Source Model → Open Weights</p>
+            <p>- Apache 2.0 Lizenz</p>
+            <p>- Deutlich kleiner als GPT-5 → Lokal ausführbar</p>
+        </div>
+    </div>
+    <img src="/img/intro/meme_happy.jpg" class="max-h-full" v-click="7"/>
 </div>
 
 <style>
@@ -48,6 +34,10 @@ gpt-oss Erwartung 😞 -> Realität 🤩 -->
   min-width: 0;
   min-height: 0;
 }
+
+.oss p {
+    margin: 6px 0;
+}
 </style>
 
 <!--
@@ -62,24 +52,13 @@ Und ich bin ein bisschen in ein Rabbit Hole gefallen.
 
 ---
 
-# Was ist denn gpt-oss eigentlich?
+<!-- <img src="/img/intro/bain_explosion.gif" class="relative left-1/2 transform-translate-x--1/2 h-[40%]" /> -->
+<img src="/img/intro/mindblow-2.gif" class="absolute w-full h-full top-0 left-0 rounded-0" />
 
-- oss = open source software
-- Open Source Model
-    - Open Weights
-- Apache 2.0 Lizenz
-- Deutlich kleiner als GPT-5
-- Lokal ausführbar
+<div v-click="1" class="absolute w-full h-full top-0 left-0 bg-black/50"></div>
 
-<!-- Das hier zeigen bevor ich meine Reaktion darauf zeige -->
-<!-- Begriff Cloud Models vs. OSS Models einführen -->
-
----
-
-<img src="/img/intro/bain_explosion.gif" class="relative left-1/2 transform-translate-x--1/2 h-[40%]" />
-
-<div class="flex w-full justify-between">
-    <img src="/img/intro/bain_explosion.gif" class="w-[30%]" />
-    <img src="/img/intro/bain_explosion.gif" class="w-[30%]" />
-    <img src="/img/intro/bain_explosion.gif" class="w-[30%]" />
+<div class="flex w-full h-1/2 justify-between items-center absolute left-0 top-1/2 -translate-y-1/2 gap-6 px-10">
+    <img src="/img/intro/reddit.png" class="basis-0 flex-grow  min-w-0 h-fit" v-click />
+    <img src="/img/intro/local-llm-setup.jpeg" class="basis-0 min-w-0 flex-grow object-contain" v-click />
+    <img src="/img/intro/disc-space.png" class="basis-0 flex-grow  min-w-0 h-fit" v-click />
 </div>
