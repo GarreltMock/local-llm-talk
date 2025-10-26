@@ -11,7 +11,7 @@
     <div class="relative">
         <img src="/img/intro/meme_sad.jpg" class="max-h-full" v-click="6" />
         <div v-click="[5, 6]" class="oss absolute top-0 w-[200%] h-full flex flex-col justify-center">
-            <p>- Open Source Model → Open Weights</p>
+            <p>- Open Source Modell → Open Weights</p>
             <p>- Apache 2.0 Lizenz</p>
             <p>- Deutlich kleiner als GPT-5 → Lokal ausführbar</p>
         </div>
@@ -62,3 +62,13 @@ Und ich bin ein bisschen in ein Rabbit Hole gefallen.
     <img src="/img/intro/local-llm-setup.jpeg" class="basis-0 min-w-0 flex-grow object-contain" v-click />
     <img src="/img/intro/disc-space.png" class="basis-0 flex-grow  min-w-0 h-fit" v-click />
 </div>
+
+---
+layout: cover
+---
+
+> TODO
+
+# Wir reisen zum Mars
+
+### Dafür richten wir uns heute mal eine lokale LLM Entwicklungsumgebung ein

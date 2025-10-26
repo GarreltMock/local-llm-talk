@@ -28,24 +28,6 @@ src: ./pages/1-intro.md
 ---
 
 ---
-layout: cover
----
-
-# Meine Journey
-
-## 1. Model Landschaft
-
-## 2. Wie lasse ich die laufen
-
-## 3. *(Dev)* Use Cases
-
-<style scoped>
-h2 {
-  margin: 18px 0;
-}
-</style>
-
----
 layout: about-me
 ---
 
@@ -54,11 +36,11 @@ src: ./pages/2-why-local.md
 ---
 
 ---
-src: ./pages/3-state-of-the-art.md
+src: ./pages/3-prerequisites.md
 ---
 
 ---
-src: ./pages/4-prerequisites.md
+src: ./pages/4-model-selection.md
 ---
 
 ---
@@ -68,3 +50,10 @@ src: ./pages/5-use-cases.md
 ---
 src: ./pages/6-look-ahead.md
 ---
+
+---
+layout: section
+---
+
+# 🤝 Q&A Zeit
+## Fragen, Diskussion, Erfahrungsaustausch

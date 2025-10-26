@@ -22,8 +22,8 @@
                     </li>
                     <!-- <li>5+ Jahre Frontend Erfahrung</li> -->
                     <li>
-                        Claude-Code Fan
-                        <logos-claude-icon class="inline-block h-[1em]" />
+                        <logos-openai-icon class="inline-block h-[1em]" /> &
+                        <logos-claude-icon class="inline-block h-[1em]" /> Nutzer
                     </li>
                 </ul>
 
@@ -34,11 +34,12 @@
                     <img src="/img/games/classics.png" class="inline-block h-[1em] w-[1em]" />
                 </span>
             </div>
-            <figure class="flex justify-center w-1/2">
+            <figure class="relative flex justify-center w-1/2">
                 <img
                     src="/img/me.jpg"
                     class="bg-gray-400 rounded-full object-cover h-80 w-80 border border-8 border-[var(--slidev-theme-primary)] z-10"
                 />
+                <img src="/img/intro/astronaut-helmet.gif" class="absolute z-10 -top-20" />
             </figure>
         </div>
     </div>
