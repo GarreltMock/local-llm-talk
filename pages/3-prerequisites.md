@@ -1,25 +1,44 @@
 ---
 title: Hardware
 class: flex flex-col
+hide: true
 ---
 
 # Hardware
 
+## Stichwort: <v-click>RAM (und zwar ne Menge)</v-click>
+
 <div class="flex-grow flex flex-col items-center justify-center">
 
-## Stichwort: RAM
-
-besser gesagt VRAM
-
-<!-- Meme Wand? Und dann am Ende ein besserwisser mit erhobenem Finger VRAM -->
-<!--
-Cloud APIs -> Sehr schnell ~100ms
-Local GPU -> Schnell ~500ms-2s
-Local CPU -> Langsam ~5-30s
-Local Mobile -> Sehr langsam ~30s+
--->
+<ScrollText
+    v-click="1"
+    :texts="['RAM','RAM','RAM','RAM','RAM',]"
+    :velocity="100"
+    :damping="50"
+    :stiffness="400"
+    :velocity-mapping="{ input: [0, 1000], output: [0, 5] }"
+    class-name="text-gray"
+/>
 
 </div>
+
+
+---
+hide: true
+---
+
+# Rechenleistung
+Inferenzgeschwindigkeit
+
+<v-clicks>
+
+| *Setup*    | *Geschwindigkeit*      | *Speichertyp*    |
+|------------|------------------------|------------------|
+| Local GPU  | **Schnell** ~500ms - 2s    | VRAM             |
+| Local CPU  | **Langsam** ~5 - 30s       | RAM              |
+| Cloud APIs | **Sehr schnell** ~100ms    | 🤷‍♂️               |
+
+</v-clicks>
 
 ---
 title: Hardware
@@ -27,7 +46,8 @@ class: flex flex-col h-full
 ---
 
 # Hardware
-## Was für Optionen haben wir
+
+Hauptsächlich: RAM & GPU
 <!-- 1. Mac (unified M-Chip, MLX, gerade super)
 2. Grafikkarte / Gaming-PC
 3. KLeiner Server - Strix Halo -->
@@ -44,6 +64,8 @@ class: flex flex-col h-full
 
 </v-click>
 
+<!-- TODO: hier die Preise direkt unter den Optionen aufhängen -->
+
 ---
 title: Software
 class: flex flex-col h-full
@@ -53,24 +75,26 @@ class: flex flex-col h-full
 
 <div class="flex w-full flex-grow items-center justify-center gap-10">
 
-<div v-click class="flex basis-0 gap-10 flex-grow justify-end flex-col items-center">
-<img src="/img/logos/ollama.png" class="inline-block size-[8em] mb-2 color-white rounded-[20%] bg-white p-2" />
+<div v-click class="flex basis-0 gap-2 flex-grow justify-end flex-col items-center">
+<img src="/img/logos/ollama.png" class="inline-block size-[8em] color-white rounded-[20%] bg-white p-2" />
 <div>
 
-- "Docker für LLMs"
+**Ollama**
 - CLI + REST API
 - Automatisches Model Management
 - Cross-Platform (Mac, Linux, Windows)
+- "Docker für LLMs"
 
 ↓ [Download](https://ollama.com/download)
 
 </div>
 </div>
 
-<div v-click class="flex basis-0 gap-10 flex-grow flex-col items-center  justify-end ">
-<img src="/img/logos/lmstudio.png" class="inline-block size-[8em] mb-2 color-white rounded-[20%] bg-white p-2" />
+<div v-click class="flex basis-0 gap-2 flex-grow flex-col items-center  justify-end ">
+<img src="/img/logos/lmstudio.png" class="inline-block size-[8em] color-white rounded-[20%] bg-white p-2" />
 <div>
 
+**LM Studio**
 - Grafische Benutzeroberfläche
 - Model Browser mit Ratings
 - Einfaches Download Management

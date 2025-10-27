@@ -7,7 +7,7 @@
                 <ul>
                     <li>
                         <a href="https://lotum.de">Lotum</a>
-                        <LightOrDark>
+                        <LightOrDark class="inline-block">
                             <template #dark>
                                 <img class="ml-2 inline-block h-[1em]" src="/img/lotum-dark.png" />
                             </template>
@@ -20,10 +20,11 @@
                         <a href="https://programmier.bar">programmier.bar</a>
                         <img class="ml-2 inline-block h-[1em]" src="/img/pb.png" />
                     </li>
-                    <!-- <li>5+ Jahre Frontend Erfahrung</li> -->
+                    <li>AI COP Mitglied 🤖</li>
                     <li>
-                        <logos-openai-icon class="inline-block h-[1em]" /> &
-                        <logos-claude-icon class="inline-block h-[1em]" /> Nutzer
+                        <logos-openai-icon class="inline-block h-[1em]" />
+                        <logos-claude-icon class="inline-block h-[1em] mr-1" />
+                        <img src="/img/logos/lmstudio.png" class="inline-block h-[1em] rounded-none" /> Nutzer
                     </li>
                 </ul>
 

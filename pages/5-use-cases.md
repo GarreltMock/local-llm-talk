@@ -2,7 +2,7 @@
 layout: section
 ---
 
-# Wie binde ich das jetzt ein?
+# Wie nutze ich das jetzt?
 
 ---
 class: flex flex-col h-full
@@ -29,13 +29,13 @@ class: flex h-full gap-8
 
 <div class="flex-grow">
 
-# VS Code
+# Copilot
 [Continue](https://www.continue.dev/)
 
 <br>
 
 ### ⚙️ **Setup**
-1. VSCode Extension installieren
+1. Extension installieren
 2. Config anpassen (`~/.continue/config.json`) →
 3. LM Studio Server einstellen
 4. Fertig! 🎉
@@ -106,9 +106,6 @@ class: flex h-full gap-8
 
 ```bash
 npm install -g @opencode/cli
-```
-
-```bash
 #oder
 pip install opencode
 ```
@@ -117,8 +114,7 @@ pip install opencode
 
 Kontextlänge bei LM Studio einstellen
 
-> TODO: Ollama lief hier nicht <br>
-> Vielleicht weil es nicht kompatibel war? Screenshot zeigen
+> ⚠️ Ollama lief hier nicht
 
 <div class="mt-6 p-2 bg-purple-400 rounded-lg">
 <strong>Alternativen:</strong> Claude Code Router, Aider, Continue (Beta)
@@ -175,8 +171,34 @@ p {
 
 ---
 
+# Recap
+
+<v-clicks>
+
+1. 💻 Hardware ausgesucht - **Macbook**
+2. ⚙️ Software installiert - **Ollama** & **LM Studio**
+3. 🤖 Modelle ausgewählt - **gpt-oss** & **Qwen3-Coder**
+4. 🚀 In Entwicklungsumgebung integriert - **Continue** & **Opencode**
+
+</v-clicks>
+
+<br/>
+
+<v-click>
+
+### → **Ab zum Mars 🌕**
+
+</v-click>
+
+
+<img v-click="5" src="/img/intro/rocket.gif" class="absolute w-1/4 bottom-0 right-20 rounded-0" v-motion :enter="{ x: 0, y: 0 }"  :initial="{ x: -80, y: 80 }" />
+
+---
+
 # Bonus
 
 - [Perplexica](https://github.com/ItzCrazyKns/Perplexica)
 - [superwhisper](https://superwhisper.com/)
 - Image / Video generierung
+    - [FLUX](https://huggingface.co/black-forest-labs/FLUX.1-dev)
+    - [Wan](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B)

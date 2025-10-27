@@ -1,27 +1,59 @@
+---
+class: flex flex-col h-full
+---
+
 # Warum?
 
 <!-- Story von Kollegen erzählen -->
 <!-- Visualisierung mit Icons -->
 <!-- 1 Folie sollte reichen -->
 
-> Todo: Icons malen
+<!-- > Todo: Icons malen -->
+
+
+<div class="flex">
+
+<div>
 
 ## Hard-Facts
-1. Unabhängigkeit / Kontrolle
+
+<v-clicks depth="3">
+
+1. 🌐 Offline
+2. 🎛️ Unabhängigkeit / Kontrolle
     - Ich entscheide über genutzte Version und Parameter etc.
-    - Beispiel -> Switch von GPT-4o zu 5
-2. Kostenkontrolle / -vorhersehbarkeit
-3. Privacy
-4. Offline
+    - Beispiel: Switch von GPT-4o zu 5
+3. 💸 Kostenkontrolle / -vorhersehbarkeit
+4. 🕵️ Privacy
+5. 🔧 Fine-Tuning
 <!-- 5. (Uncensored?) -->
 
-## Soft-Facts
-1. Open source - Linux vergleich
-2. Man kann vieles ausprobieren, ohne Anmeldung etc. (Opencode, Perplexica, Images)
-3. AI features in Software einbauen / testing davon
-4. Experimentieren / Spaß (Nerd-Factor) / DoItYourself
-5. Fine-Tuning
+</v-clicks>
 
-<!--
-Hier dann der Vergleich mit Linux
--->
+</div>
+<div>
+
+<v-clicks>
+
+## Soft-Facts
+1. 👐 Open source
+2. 🔬 Man kann vieles ausprobieren
+    - ohne Anmeldung
+    - viele Open-Source Alternativen
+3. 🤓 Spaß (Nerd-Factor) / DoItYourself
+
+</v-clicks>
+
+</div>
+</div>
+
+<div class="flex-grow"></div>
+
+<v-click>
+
+> "Das Linux der LLMs"
+
+- Viele Parallelen
+- Warum wählen Leute Linux über Windows / MacOS?
+
+</v-click>

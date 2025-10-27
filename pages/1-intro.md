@@ -9,14 +9,14 @@
     <img src="/img/intro/meme_sad.jpg" class="max-h-full" v-click="3"/>
     <img src="/img/intro/gpt-oss_release.png" class="max-h-full object-contain" v-click="4"/>
     <div class="relative">
-        <img src="/img/intro/meme_sad.jpg" class="max-h-full" v-click="6" />
+        <img src="/img/intro/me_sad.png" class="max-h-full" v-click="6" />
         <div v-click="[5, 6]" class="oss absolute top-0 w-[200%] h-full flex flex-col justify-center">
             <p>- Open Source Modell → Open Weights</p>
-            <p>- Apache 2.0 Lizenz</p>
+            <p>- Zwei Größen: 20B und 120B</p>
             <p>- Deutlich kleiner als GPT-5 → Lokal ausführbar</p>
         </div>
     </div>
-    <img src="/img/intro/meme_happy.jpg" class="max-h-full" v-click="7"/>
+    <img src="/img/intro/me_happy.png" class="max-h-full" v-click="7"/>
 </div>
 
 <style>
@@ -53,7 +53,8 @@ Und ich bin ein bisschen in ein Rabbit Hole gefallen.
 ---
 
 <!-- <img src="/img/intro/bain_explosion.gif" class="relative left-1/2 transform-translate-x--1/2 h-[40%]" /> -->
-<img src="/img/intro/mindblow-2.gif" class="absolute w-full h-full top-0 left-0 rounded-0" />
+<!-- <img src="/img/intro/mindblow-2.gif" class="absolute w-full h-full top-0 left-0 rounded-0" /> -->
+<img src="/img/intro/rabbit-hole2.gif" class="absolute w-full h-full top-0 left-0 rounded-0" />
 
 <div v-click="1" class="absolute w-full h-full top-0 left-0 bg-black/50"></div>
 
@@ -67,8 +68,9 @@ Und ich bin ein bisschen in ein Rabbit Hole gefallen.
 layout: cover
 ---
 
-> TODO
-
 # Wir reisen zum Mars
 
 ### Dafür richten wir uns heute mal eine lokale LLM Entwicklungsumgebung ein
+
+<img src="/img/intro/rocket.gif" class="absolute w-1/4 top-0 left-0 rounded-0" />
+<img src="/img/intro/computer-cat.gif" class="absolute w-1/4 bottom-0 right-0 rounded-0" />
