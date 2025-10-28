@@ -11,7 +11,7 @@
     <div class="relative">
         <img src="/img/intro/me_sad.png" class="max-h-full" v-click="6" />
         <div v-click="[5, 6]" class="oss absolute top-0 w-[200%] h-full flex flex-col justify-center">
-            <p>- Open Source Modell → Open Weights</p>
+            <p>- Open-Source Modell → Open Weights</p>
             <p>- Zwei Größen: 20B und 120B</p>
             <p>- Deutlich kleiner als GPT-5 → Lokal ausführbar</p>
         </div>

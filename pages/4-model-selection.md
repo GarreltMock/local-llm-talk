@@ -73,7 +73,7 @@ title: Modelgröße
 class: flex flex-col h-full
 ---
 
-# Modelgröße
+# Modellgröße
 
 Parameter - Gewichtsklassen
 
@@ -109,7 +109,7 @@ Parameter - Gewichtsklassen
 
 ---
 
-# Modelformat
+# Modellformat
 
 <v-click>
 
@@ -127,10 +127,10 @@ Parameter - Gewichtsklassen
 
 <v-click>
 
-## Modeltyp
+## Modelltyp
 
 <div class="relative flex justify-center items-center mb-10 mt-6">
-<logos-apple class="inline-block bg-white p-2 rounded-full size-[3em] overflow-visible" /> <h2 class="mx-6">MLX vs. GGUF</h2> <img src="/img/logos/nvidia-color.png" class="inline-block color-white rounded-full bg-white p-2 size-[3em] overflow-visible" />
+<img src="/img/logos/nvidia-color.png" class="inline-block color-white rounded-full bg-white p-2 size-[3em] overflow-visible" /> <h2 class="mx-6">GGUF vs. MLX</h2> <logos-apple class="inline-block bg-white p-2 pb-3 pt-1 rounded-full size-[3em] overflow-visible" />
 </div>
 
 </v-click>
@@ -191,14 +191,6 @@ Nützlich für grobe Einordnung
 
 <v-clicks>
 
-- Bekanntester: `MMLU` (Massive Multitask Language Understanding)
-- Software: `SWE-Bench`, `HumanEval`
-
-<!-- TODO: Wenn dann eher zeigen bei manchem Benchmarks was das für Tests sind -->
-
-<!-- - `GSM8K`, `BBH`, `MT-Bench`: Open-Source Benchmarks, nutzen Labore und Leaderboards
-- `AIME`, `GPQA`, `Humanity’s Last Exam`: OpenAI-spezifische, hochschwierige Reasoning-Tests, gehen über Community-Benchmarks hinaus -->
-
 <div class="my-6 p-4 pt-1 bg-gradient-to-r from-red-200 to-red-400  rounded-xl p:m-0 color-black shadow-lg">
 
 ❗ **Vorsicht:**
@@ -210,6 +202,7 @@ Nützlich für grobe Einordnung
 </div>
 
 → Meine Lieblingsquelle: [LM Arena](https://lmarena.ai/leaderboard)
+    - Community Ranking von Modellen
 
 </v-clicks>
 

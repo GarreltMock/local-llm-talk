@@ -20,11 +20,11 @@ class: flex flex-col h-full
 <v-clicks depth="3">
 
 1. 🌐 Offline
-2. 🎛️ Unabhängigkeit / Kontrolle
+2. 🕵️ Privacy
+3. 🎛️ Unabhängigkeit / Kontrolle
     - Ich entscheide über genutzte Version und Parameter etc.
     - Beispiel: Switch von GPT-4o zu 5
-3. 💸 Kostenkontrolle / -vorhersehbarkeit
-4. 🕵️ Privacy
+4. 💸 Kostenkontrolle / -vorhersehbarkeit
 5. 🔧 Fine-Tuning
 <!-- 5. (Uncensored?) -->
 
@@ -36,7 +36,7 @@ class: flex flex-col h-full
 <v-clicks>
 
 ## Soft-Facts
-1. 👐 Open source
+1. 👐 Open-Source
 2. 🔬 Man kann vieles ausprobieren
     - ohne Anmeldung
     - viele Open-Source Alternativen
