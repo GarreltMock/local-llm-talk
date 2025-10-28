@@ -1,1 +1,0 @@
-import{f as t,o,j as s}from"./modules/vue-DdC-xifB.js";import{u as r}from"./slidev/context-XIxDeeur.js";const l={class:"slidev-layout my-cover size-full flex flex-col justify-center items-center"},_={__name:"cover",setup(c){return r(),(e,a)=>(o(),t("div",l,[s(e.$slots,"default")]))}};export{_};

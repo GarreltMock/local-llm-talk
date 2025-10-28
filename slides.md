@@ -57,3 +57,8 @@ layout: section
 
 # 🤝 Q&A Zeit
 ## Fragen, Diskussion, Erfahrungsaustausch
+
+<div class="absolute bottom-2 right-2">
+<h3>Slides</h3>
+<img src="/img/qr.png" class="size-34" />
+</div>
