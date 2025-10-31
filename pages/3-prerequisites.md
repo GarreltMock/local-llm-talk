@@ -75,9 +75,9 @@ class: flex flex-col h-full
 
 <div class="flex w-full flex-grow items-center justify-center gap-10">
 
-<div v-click class="flex basis-0 gap-2 flex-grow justify-end flex-col items-center">
-<img src="/img/logos/ollama.png" class="inline-block size-[8em] color-white rounded-[20%] bg-white p-2" />
-<div>
+<div class="flex basis-0 gap-2 flex-grow justify-end flex-col items-center">
+<img v-click src="/img/logos/ollama.png" class="inline-block size-[8em] color-white rounded-[20%] bg-white p-2" />
+<div v-click="1">
 
 **Ollama**
 - CLI + REST API
@@ -87,12 +87,16 @@ class: flex flex-col h-full
 
 ↓ [Download](https://ollama.com/download)
 
+
+</div>
+<div v-click class="mt-2 p-2 bg-purple-400 rounded-lg">
+<strong>Alternativen:</strong> llama.cpp, vLLM
 </div>
 </div>
 
-<div v-click class="flex basis-0 gap-2 flex-grow flex-col items-center  justify-end ">
-<img src="/img/logos/lmstudio.png" class="inline-block size-[8em] color-white rounded-[20%] bg-white p-2" />
-<div>
+<div class="flex basis-0 gap-2 flex-grow flex-col items-center  justify-end ">
+<img v-click src="/img/logos/lmstudio.png" class="inline-block size-[8em] color-white rounded-[20%] bg-white p-2" />
+<div v-click="3">
 
 **LM Studio**
 - Grafische Benutzeroberfläche
@@ -102,11 +106,12 @@ class: flex flex-col h-full
 
 ↓ [Download](https://lmstudio.ai/download)
 
+
+</div>
+<div v-click class="mt-2 p-2 bg-purple-400 rounded-lg">
+<strong>Alternativen:</strong> GPT4All, jan.ai
 </div>
 </div>
 
 </div>
 
-<div v-click class="mt-6 p-2 bg-purple-400 rounded-lg">
-<strong>Alternativen:</strong> llama.cpp, vLLM, GPT4All, jan.ai
-</div>

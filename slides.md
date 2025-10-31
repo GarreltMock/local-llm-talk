@@ -60,5 +60,5 @@ layout: section
 
 <div class="absolute bottom-2 right-2">
 <h3>Slides</h3>
-<img src="/img/qr.png" class="size-34" />
+<img src="/img/qr.png" class="size-34 bg-white p-1" />
 </div>

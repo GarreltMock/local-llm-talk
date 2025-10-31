@@ -61,16 +61,22 @@ Und ich bin ein bisschen in ein Rabbit Hole gefallen.
 <div class="flex w-full h-1/2 justify-between items-center absolute left-0 top-1/2 -translate-y-1/2 gap-6 px-10">
     <img src="/img/intro/reddit.png" class="basis-0 flex-grow  min-w-0 h-fit" v-click />
     <img src="/img/intro/local-llm-setup.jpeg" class="basis-0 min-w-0 flex-grow object-contain" v-click />
-    <img src="/img/intro/disc-space.png" class="basis-0 flex-grow  min-w-0 h-fit" v-click />
+    <img src="/img/intro/huggingface-models.png" class="basis-0 flex-grow  min-w-0 h-fit" v-click />
 </div>
 
 ---
 layout: cover
 ---
 
+<h2 class="opacity-70 mb-6">Gedanken-Experiment</h2>
+
+<v-click>
+
 # Wir reisen zum Mars
 
-### Dafür richten wir uns heute mal eine lokale LLM Entwicklungsumgebung ein
+### Dafür richten wir eine lokale LLM Entwicklungsumgebung ein
 
-<img src="/img/intro/rocket.gif" class="absolute w-1/4 top-0 left-0 rounded-0" />
-<img src="/img/intro/computer-cat.gif" class="absolute w-1/4 bottom-0 right-0 rounded-0" />
+<img src="/img/intro/rocket.gif" class="absolute w-1/4 top-0 left-0 rounded-0" v-motion :enter="{ x: 0, y: 0 }"  :initial="{ x: -80, y: 80 }" />
+<img src="/img/intro/computer-cat.gif" class="absolute w-1/4 bottom-0 right-0 rounded-0" v-motion :enter="{ x: 0, y: 0 }"  :initial="{ x: 80, y: 0 }" />
+
+</v-click>

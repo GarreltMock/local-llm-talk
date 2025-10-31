@@ -24,12 +24,6 @@ class: flex flex-col h-full
 
 </div>
 
-<v-click>
-
-> \>280k Text Generation Modelle auf <img src="/img/logos/huggingface-color.png" class="inline-block size-[1.5em]" />
-
-</v-click>
-
 <style scoped>
 .logo-0 { left: 0%;   top: 0%;   }
 .logo-1 { left: 15%; top: 9.38%; }
@@ -115,15 +109,18 @@ Parameter - Gewichtsklassen
 
 ## Datentyp / Quantisierung
 
+</v-click>
+
 <br/>
+
+<v-clicks>
 
 - **FP16:** Industrie-Standard
 - **MXFP4:** Komprimiert
 - **Q8_0:** ähnliche Qualität wie FP16, weniger RAM
 - **Q4_K_M:** Quant Standard, gute Balance
-- **Q2_K:** Sehr kompakt, Qualitätsverlust
 
-</v-click>
+</v-clicks>
 
 <v-click>
 
